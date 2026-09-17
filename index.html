@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lwifi Solution by shafi</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box;}
+  html,body{
+    height:100%;
+    margin:0;
+  }
+  body{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:16px;
+    font-family:"Anek Bangla","Noto Sans Bengali",sans-serif;
+    background-color:#000000;
+    background-image:
+      linear-gradient(rgba(255,255,255,0.06) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.06) 1px, transparent 1px),
+      radial-gradient(rgba(255,255,255,0.18) 1px, transparent 1px);
+    background-size:26px 26px, 26px 26px, 26px 26px;
+    background-position:0 0, 0 0, 0 0;
+    color:#ffffff;
+    line-height:1.55;
+    font-size:14px;
+    position:relative;
+    overflow:hidden;
+  }
+  body::before{
+    content:"";
+    position:fixed;
+    inset:0;
+    background:
+      radial-gradient(circle at 20% 15%, rgba(255,255,255,0.10), transparent 45%),
+      radial-gradient(circle at 85% 80%, rgba(255,255,255,0.06), transparent 50%),
+      radial-gradient(circle at 50% 50%, transparent 30%, rgba(0,0,0,0.75) 100%);
+    pointer-events:none;
+    z-index:0;
+  }
+  .wrap{
+    max-width:420px;
+    width:100%;
+    position:relative;
+    z-index:1;
+  }
+  .notice{
+    text-align:center;
+    padding:22px 16px;
+    border:1px solid #333;
+    border-radius:12px;
+    background:#0a0a0a;
+    box-shadow:0 0 24px rgba(255,255,255,0.05);
+  }
+  .highlight-block{
+    display:inline-block;
+    background:#ffffff;
+    color:#000000;
+    padding:10px 14px;
+    border-radius:8px;
+    font-size:1.15rem;
+    font-weight:600;
+    line-height:1.5;
+    margin-bottom:18px;
+    
+  }
+  .price-row{
+    display:flex;
+    justify-content:center;
+    gap:14px;
+  }
+  .price-box{
+    flex:1;
+    max-width:140px;
+    padding:10px 8px;
+    border:1px solid #333;
+    border-radius:8px;
+    background:#000000;
+  }
+  .price-label{
+    font-size:0.78rem;
+    color:#aaaaaa;
+    margin-bottom:4px;
+  }
+  .price-value{
+    font-size:1.15rem;
+    font-weight:700;
+    color:#ffffff;
+    text-shadow:0 0 10px rgba(255,255,255,0.4);
+  }
+  .disclaimer{
+    margin-top:18px;
+    padding:14px 16px;
+    border:1px solid #333;
+    border-radius:12px;
+    background:#0a0a0a;
+  }
+  .disclaimer h2{
+    text-align:center;
+    display:block;
+    margin:0 auto 10px;
+    width:fit-content;
+    font-size:0.85rem;
+    font-weight:600;
+    background:#6b1414;
+    padding:3px 10px;
+    border:1px solid #6b1414;
+    border-radius:5px;
+    color:#ffffff;
+  }
+  .disclaimer p{
+    font-size:0.72rem;
+    color:#cccccc;
+    margin:0 0 8px;
+  }
+  .disclaimer p em{
+    font-size:0.65rem;
+    color:#999999;
+    font-style:italic;
+  }
+  .signature{
+    margin-top:10px;
+    font-size:0.72rem;
+    color:#999999;
+  }
+  .signature p{margin:1px 0;}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  
+
+  <div class="notice">
+    <div class="highlight-block"><b>লিফট ও Wi-Fi এর ডিসপ্লে নষ্ট হয়ে গেছে! <br>চেঞ্জ করা লাগবে</b></div>
+    <div class="price-row">
+      <div class="price-box">
+        <div class="price-label">অরিজিনাল</div>
+        <div class="price-value">১৫০০/-</div>
+      </div>
+      <div class="price-box">
+        <div class="price-label">কপি</div>
+        <div class="price-value">৪২০/-</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="disclaimer">
+    <h2 align="center">ডিসক্লেইমার</h2>
+    <p>এই ওয়েবসাইটটি কোনো ব্যক্তি, প্রতিষ্ঠান, বিভাগ বা কর্তৃপক্ষের মানহানি বা ভাবমূর্তি ক্ষুণ্ণ করার উদ্দেশ্যে তৈরি করা হয়নি। বরং একটি টেকনিক্যাল সমস্যা দীর্ঘদিন ধরে মানুষের দৈনন্দিন জীবনে যে সামান্য(?) ভোগান্তি সৃষ্টি করছে, তার একটি প্রযুক্তিনির্ভর ও সৃজনশীল সমাধান দেওয়ার ক্ষুদ্র প্রয়াস মাত্র।</p>
+    <p><strong>একজন ইঞ্জিনিয়ারিংয়ের আন্ডারগ্র্যাড শিক্ষার্থী হিসেবে সমস্যার সমাধান দেওয়া এবং একজন সচেতন নাগরিক হিসেবে দেশ ও জাতির উপকার করা আমার নৈতিক দায়িত্ব।</strong></p>
+    <p><em>উল্লিখিত মূল্যসমূহ সম্পূর্ণ কাল্পনিক এবং কোনো প্রকৃত পণ্য, সেবা বা বাজারদরের সঙ্গে সম্পর্কিত নয়। তবে লিফট আর Wi-Fi ঠিক হয়ে গেলে এই ওয়েবসাইটের প্রয়োজনীয়তাও স্বাভাবিকভাবেই কমে যাবে। আর হ্যাঁ, জিনিসটাকে সিরিয়াসলি নেবেন না। সিরিয়াস হয়ে গেলে ডাক্তার দেখান! আপনার রক্তে হিউমার লেভেল কমে গেছে! সম্ভবত ভিটামিন H-এর ঘাটতি হয়েছে। </em>🤝</p>
+
+    <div class="signature">
+      <p>ইতি,</p>
+      <p>শাফীউল মুজনিবীন</p>
+      <p>Dept. of CSE (2nd Batch)</p>
+      <p>Kishoreganj University</p>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
